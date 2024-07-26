@@ -30,3 +30,18 @@ git config user.name - display particular one project user name change
 BRANCH CREATION & MANAGEMENT:
 git branch new-branch-name - create a new branch
 git checkout branch-name - switch to different branch
+
+git branch - display all local repository branch with active branch
+git branch -a - display all local & remote repository branch with active branch
+
+git branch -m new-branch-name - rename current branch name
+git branch -m old-branch-name new-branch-name - rename different branch name
+git push origin rename-branch-name(new-branch-name) - after rename push that branch in remote repository
+
+git branch -d branch-name - to delete branch locally
+git push origin --delete remote-branch-name - to delete branch remotely
+
+
+MERGE TWO BRANCH:
+git checkout branch-name - switch to that branch in that user want to merge other branch
+git merge source-branch-name - branch name which user want to merge in other branch 
