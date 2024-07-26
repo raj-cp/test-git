@@ -30,3 +30,12 @@ git config user.name - display particular one project user name change
 BRANCH CREATION & MANAGEMENT:
 git branch new-branch-name - create a new branch
 git checkout branch-name - switch to different branch
+
+
+MERGE TWO BRANCH:
+git checkout branch-name - switch to that branch in that user want to merge other branch
+git merge source-branch-name - branch name which user want to merge in other branch 
+
+MERGE TWO BRANCH:
+git checkout branch-name - switch to that branch in that user want to merge other branch
+git merge source-branch-name - branch name which user want to merge in other branch 
