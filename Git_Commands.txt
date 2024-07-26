@@ -27,9 +27,11 @@ git config user.name "your_name" - particular one project user name change
 git config --global user.name - display all project  user name change
 git config user.name - display particular one project user name change
 
+
 BRANCH CREATION & MANAGEMENT:
 git branch new-branch-name - create a new branch
 git checkout branch-name - switch to different branch
+git checkout -b new-branch-name - create new branch name & switch to that branch
 
 git branch - display all local repository branch with active branch
 git branch -a - display all local & remote repository branch with active branch
@@ -46,4 +48,4 @@ MERGE TWO BRANCH:
 git checkout branch-name - switch to that branch in that user want to merge other branch
 git merge source-branch-name - branch name which user want to merge in other branch 
 
-
+when conflict occurred at that time do changes manually and after that push 
