@@ -1,0 +1,28 @@
+INSTALL GH IN UBUNTU:
+sudo apt install gh
+gh --version
+
+
+TO CREATE REPOSITORY:
+gh auth login
+gh repo create <repo-name> --public/privet
+
+
+TO DELETE REPOSITORY:
+gh auth login
+gh repo delete <user-name>/<repo-name>
+
+
+INITIALIZE PROJECT:
+git init
+git remote add origin https://github.com/your-username/<repo-name>.git
+git add . 
+git commit -m "Initial commit"
+git push origin master/main
+
+
+GITHUB COMMIT PROJECT USER CHANGE NAME:
+git config --global user.name "your_name"	- all project user name change
+git config user.name "your_name" - particular one project user name change
+git config --global user.name - display all project  user name change
+git config user.name - display particular one project user name change
