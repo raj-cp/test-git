@@ -51,6 +51,9 @@ git merge source-branch-name - branch name which user want to merge in other bra
 when conflict occurred at that time do changes manually and after that push 
 
 
+
 git diff test 
 git diff test1 
 git diff test2 
+
+reset test
