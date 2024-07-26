@@ -26,3 +26,7 @@ git config --global user.name "your_name"	- all project user name change
 git config user.name "your_name" - particular one project user name change
 git config --global user.name - display all project  user name change
 git config user.name - display particular one project user name change
+
+BRANCH CREATION & MANAGEMENT:
+git branch new-branch-name - create a new branch
+git checkout branch-name - switch to different branch
