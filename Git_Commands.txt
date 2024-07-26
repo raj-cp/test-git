@@ -45,3 +45,5 @@ git push origin --delete remote-branch-name - to delete branch remotely
 MERGE TWO BRANCH:
 git checkout branch-name - switch to that branch in that user want to merge other branch
 git merge source-branch-name - branch name which user want to merge in other branch 
+
+
